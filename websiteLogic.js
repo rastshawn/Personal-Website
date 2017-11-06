@@ -45,6 +45,10 @@ var directories = [
 				type : "dir",
 				func : function projects() {
 					currentDir = "/projects";
+                    var string = "For examples of my work, please visit";
+                    string += " my GitHub link. In addition please feel ";
+                    string += "free to click through these demo sites.";
+                    display(string);
 					display(PROMPT(), "blue");
 				}
 			},
@@ -63,10 +67,12 @@ var directories = [
 		name: "/projects",
 		files: [
 			{
-				name:"TODO",
+				name:"GitHub",
 				type:"file",
 				func: function none() {
-					display("This does nothing.<br>"); 
+                    var string = "<a href='https://github.com/rastshawn/'";
+                    string += ">github.com/rastshawn/</a><br>";
+                    display(string);
 					display(PROMPT(), "blue");
 				}
 			}
