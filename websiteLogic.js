@@ -48,6 +48,7 @@ var directories = [
                     var string = "For examples of my work, please visit";
                     string += " my GitHub link. In addition please feel ";
                     string += "free to click through these demo sites.";
+                    string += "<br>";
                     display(string);
 					display(PROMPT(), "blue");
 				}
@@ -286,6 +287,7 @@ var commands = [
 	{
 		command: "ls",
 		f : function() {
+            display("<br>");
 			listFiles();
 			display("<br>");
 			display(PROMPT(), "blue");
