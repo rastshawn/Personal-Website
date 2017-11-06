@@ -36,7 +36,9 @@ var directories = [
 						"If This Then That triggers, a few dozen scripts running on a 10-year old Dell Inspiron that my parents insisted was 'obsolete' " +
 						"make my life run smoothly. I love using computers as building blocks to my life's problems (that may or may not have been invented just to write something)." 
 						);
-					display("<br>");
+					display("<br><br>");
+                    display("I have been a musician for almost my entire life. I began studying piano when I was four, picked up a trombone when I was in the fifth grade, and now am finishing up a Bachelor of Arts in Music in addition to my degree in computer science. Programming to me is very much like performing - it's a creative outlet. Finding a creative solution to a problem and implementing it gives me a rush that I love. Music and programming are also similar in that to me, practicing is both crucial and fun. Reading theory books alone doesn't make a good performer or programmer - a desire to practice and build skills does. I love opportunities to write new solutions, and find myself asking friends and family for ideas for tools, websites, and chatbots that would make our lives easier or more enjoyable. One of my favorite aspects of being employed is simply that I'm given new problems to solve and the opportunity to build a more elegant solution than my last. "); 
+                    //display("I am in my fourth year of studying computer science at Miami University and my second year of professional software development. I'm most experienced in JavaScript and Java, but I am comfortable enough with C++ to use it almost daily."); 
 					display(PROMPT(), "blue");
 				}
 			},
