@@ -242,7 +242,6 @@ function getFileString() {
 }
 
 function parseInput() {
-	display("<br>");
 
 	var found = false;
 	var args = input.split(' ');
