@@ -254,6 +254,7 @@ function parseInput() {
 		}
 	}
 	if (!found) {
+        display("<br>");
 		display("For a list of commands, type 'help'");
 		display("<br>");
 		display(PROMPT(), "blue");
