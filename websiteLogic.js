@@ -71,26 +71,18 @@ var directories = [
 		files: [
 			{
 				name:"GitHub",
-				type:"file",
-				func: function none() {
-                    var string = "<a href='https://github.com/rastshawn/'";
-                    string += ">github.com/rastshawn/</a><br>";
-                    display(string);
-					display(PROMPT(), "blue");
-				}
-			}
+				type:"link",
+				func:"https://github.com/rastshawn" 
+            }
 		]
 	},
 	{
 		name: "/contact",
 		files: [
 			{
-				name: "email",
-				type: "file",
-				func: function email() {
-					display("<a href='mailto:rastshawn@gmail.com'>ShawnRast@gmail.com</a><br>");
-					display(PROMPT(), "blue");
-				}
+				name: "RastShawn@gmail.com",
+				type: "link",
+				func: "mailto:rastshawn@gmail.com"	
 			}
 		]
 	}
@@ -171,7 +163,7 @@ function home() {
 	display ("files", "red");
 	display(" or ");
 	display("directories", "green");
-	display(" you'd like to access.");
+	display(" you'd like to access. External links are blue.");
 	display("<br>");
 	display("You can also type 'help' for a list of commands.");
 	display("<br>");
@@ -204,12 +196,16 @@ function getLink(directoryIndex, fileIndex){
 		link += i + "," + j;
 		link += ")'>" + file.name + "</a>";
 		return link;
-	} else {
+	} else if (file.type=="dir") {
 		var link = "<a style='color:green' href='#' onclick='handleLink(";
 		link += i + "," + j;
 		link += ")'>" + file.name + "</a>";
 		return link;
-	}
+	} else if (file.type == "link") {
+       var link = "<a href='" + file.func + "'>";
+       link += file.name;
+       link += "</a>";
+    }
 }
 
 // returns array of files in the current directory
