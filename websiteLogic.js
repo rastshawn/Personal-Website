@@ -206,6 +206,7 @@ function getLink(directoryIndex, fileIndex){
        var link = "<a href='" + file.func + "'>";
        link += file.name;
        link += "</a>";
+       return link;
     }
 }
 
