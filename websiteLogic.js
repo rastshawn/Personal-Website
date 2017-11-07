@@ -383,6 +383,9 @@ function handleLink(directoryIndex, fileIndex) {
 		type("cd " + file.name);
 		display("<br>");
 		file.func();
+        type("ls");
+        display("<br>");
+        listFiles();
 	} else {
 		type("cat " + file.name); 
 		display("<br>");
