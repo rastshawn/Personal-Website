@@ -309,10 +309,16 @@ var commands = [
 				var files = getFiles();
 				for (var i in files) {
 					var file = files[i];
-					if (args[1] == file.name && file.type == "file") {
-						found = true;
-						file.func();
-						break;
+					if (args[1] == file.name) {
+                        if (file.type == "file") {
+						    found = true;
+						    file.func();
+						    break;
+                        } else if (file.type == "link") {
+                            found = true;
+                            document.href=file.func;
+                            break;
+                        }
 					}
 				}
 				if (!found) {
