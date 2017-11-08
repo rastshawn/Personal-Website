@@ -134,7 +134,7 @@ function checkBuffer() {
 }
 
 function scrollToBottom() {
-	$("#bottom").scrollIntoView();
+	document.getElementById('bottom').scrollIntoView();
 }
 
 // displays an entire string of text at one time. 
