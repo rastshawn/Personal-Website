@@ -106,6 +106,11 @@ var directories = [
 				name: "RastShawn@gmail.com",
 				type: "link",
 				func: "mailto:rastshawn@gmail.com"	
+			},
+			{
+				name: "LinkedIn",
+				type: "link",
+				func: "https://www.linkedin.com/in/rastshawn/"	
 			}
 		]
 	}
