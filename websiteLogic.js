@@ -124,12 +124,17 @@ function checkBuffer() {
 		var timeout = top[1];
 		
 		document.getElementById("output").innerHTML += htmlstring;
+		scrollToBottom();
 		window.setTimeout(checkBuffer, timeout);
 		
 	} else {
 		isPrinting = false;
 		window.setTimeout(checkBuffer, 150);
 	}
+}
+
+function scrollToBottom() {
+	$("#bottom").scrollIntoView();
 }
 
 // displays an entire string of text at one time. 
