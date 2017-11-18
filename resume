@@ -1,8 +1,12 @@
+function rightJustify(text) {
+    return "<div style='float:right; display:inline;'>" + text + "</div>";
+}
 var resume = "<br><br><center>(330) 503-5787 | <a href='mailto:rastshawn@gmail.com'>rastshawn@gmail.com</a> | <a href='www.shawnrast.com'>www.shawnrast.com</a> | 115 Ardmore Dr. Oxford, Ohio 45056<br />";
-
+resume += "<br>";
 resume += "========== <strong>Education</strong> ==========<br />";
 resume += "</center>";
-resume += "<strong>Miami University</strong><div style='text-align: right; display: inline;'>2018</div><br />";
+resume += "<br>";
+resume += "<strong>Miami University</strong>" + rightJustify("Oxford, Ohio") + "<br />";
 resume += "<br>";
 resume += "<center><strong>Majors: </strong> Bachelor of Science in Computer Science, Bachelor of Arts in Music<br>";
 resume += "<strong>University Honors Program</strong><br>";
@@ -11,7 +15,11 @@ resume += "Dean's List, Fall 2014 and Spring 2016; Computing Scholar, University
 resume+= "<strong>Languages: </strong>C++, Java, JavaScript (Web and NodeJS), HTML, Sass<br><br>";
 
 resume += "========== <strong>Work Experience</strong> ==========<br />";
-resume += "<strong>TiER1 Performance Solutuions</strong></br>";
+
+resume += "</center><br><strong>TiER1 Performance Solutuions</strong>" + rightJustify("Cincinnati, Ohio") + "<br />";
 resume += "Develop both standalone and SharePoint-housed web solutions, both internally and with clients. ";
-resume += "Use Git with BitBucket, as well as JIRA. Use build tools with Sass and templating languages. Meet with clients to discuss functionality and feasibility of ideas."; 
+resume += "Use Git with BitBucket, as well as JIRA. Use build tools with Sass and templating languages. Meet with clients to discuss functionality and feasibility of ideas." + rightJustify("May 2016 - Present") + "<br />";
+resume += "<br/>;
+
+
 
