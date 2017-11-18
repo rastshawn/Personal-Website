@@ -83,8 +83,8 @@ var directories = [
 			{
 				name : "resume",
 				type : "file",
-				func : function resume() {
-					
+				func : function resume() {  
+                    display(resume);	
 				}
 			}
 		]
@@ -167,6 +167,7 @@ function type(string) {
     for (var i = 0; i<string.length; i++) {
 		buffer.push([string[i], 100]);
 	}	
+    input += string;
 }
 
 // currently unused, but maybe should be used? 
