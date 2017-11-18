@@ -83,7 +83,9 @@ var directories = [
 			{
 				name : "resume",
 				type : "file",
-				func : resume   
+				func : function r() {
+                    display(resume);
+                }
 			}
 		]
 	}, 
