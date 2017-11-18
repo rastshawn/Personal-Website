@@ -1,0 +1,11 @@
+var resume = "<center>(330) 503-5787 | <a href='mailto:rastshawn@gmail.com'>rastshawn@gmail.com</a> | <a href='www.shawnrast.com'>www.shawnrast.com</a> | 115 Ardmore Dr. Oxford, Ohio 45056<br />";
+
+resume += "========== <strong>Education</strong> ==========<br />";
+resume += "</center>";
+resume += "<strong>Miami University</strong><br />";
+resume += "<br>";
+resume += "<center><strong>Majors: </strong> Bachelor of Science in Computer Science, Bachelor of Arts in Music<br>";
+resume += "<strong>University Honors Program</strong><br>";
+resume += "<strong>Graduation: </strong>August 2018 | <strong>GPA: </strong>3.44/4.00 <br>";
+resume += "Dean's List, Fall 2014 and Spring 2016; Computing Scholar, University Academic Scholars Program<br>";
+resume+= "<strong>Languages: </strong>C++, Java, JavaScript (Web and NodeJS), HTML, Sass<br><br>";
