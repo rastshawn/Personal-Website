@@ -19,7 +19,7 @@ resume += "========== <strong>Work Experience</strong> ==========<br />";
 resume += "</center><br><strong>TiER1 Performance Solutuions</strong>" + rightJustify("Cincinnati, Ohio") + "<br />";
 resume += "Develop both standalone and SharePoint-housed web solutions, both internally and with clients. ";
 resume += "Use Git with BitBucket, as well as JIRA. Use build tools with Sass and templating languages. Meet with clients to discuss functionality and feasibility of ideas." + rightJustify("May 2016 - Present") + "<br />";
-resume += "<br/>;
+resume += "<br/>";
 
 
 
