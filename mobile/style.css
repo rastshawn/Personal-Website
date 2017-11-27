@@ -41,6 +41,7 @@ p{
     color:white;
     text-align:center;
     line-height:75px;
+    padding-bottom:10px;
 }
 
 
@@ -60,6 +61,7 @@ p{
     margin-left:auto;
     margin-right:auto;
     display:block;
+    margin-bottom:10px;
 }
 
 .aboutMe {
@@ -68,3 +70,27 @@ p{
     padding:20px;
     margin-bottom:auto;
 }
+
+
+@media only screen and (min-width: 768px) {
+    #mobileDetect {
+		display: none;
+    }
+    
+    .spacer {
+		height:91px;
+    }
+    
+    .name {
+		font-size:4em;
+		line-height:250px;
+    }
+    .developer {
+		line-height:150px;
+    }
+    
+    .title-background {
+		height:400px;
+    }
+}
+
