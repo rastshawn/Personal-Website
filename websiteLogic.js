@@ -12,7 +12,10 @@ var input = "";
 
 
 
-
+if ( $("#mobileDetect").css('display') == 'none' ){
+	window.location = "http://www.shawnrast.com/mobile";
+    // must be on mobile
+}
 
 
 
