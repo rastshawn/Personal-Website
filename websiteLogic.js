@@ -11,6 +11,10 @@ var isPrinting = false; // used to prevent typing and printing simultaneously
 var input = "";
 
 
+if ( $("#mobileDetect").css('display') == 'none' ){
+    window.location.href = "http://www.shawnrast.com/mobile";
+    // must be on mobile
+}
 
 
 var directories = [
@@ -162,11 +166,6 @@ $(document).ready(function() {
 	display(PROMPT(), "blue");
 	checkBuffer();
 	window.setTimeout(start, 1000);
-
-    if ( $("#mobileDetect").css('display') == 'none' ){
-        window.location.href = "http://www.shawnrast.com/mobile";
-        // must be on mobile
-    }
 });
 
 // displays a string of text one letter at a time. (to emulate typing)
