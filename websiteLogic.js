@@ -12,12 +12,6 @@ var input = "";
 
 
 
-if ( $("#mobileDetect").css('display') == 'none' ){
-	window.location = "http://www.shawnrast.com/mobile";
-    // must be on mobile
-}
-
-
 
 var directories = [
 	{
@@ -37,7 +31,7 @@ var directories = [
 						"I spend a fair amount of my free time maintaining and building upon the network " + 
 						"of hacky solutions and automations I've built for myself. A series of GroupMe bots and " + 
 						"If This Then That triggers running on a 10-year old Dell Inspiron that my parents insisted was 'obsolete' " +
-						"make my life run smoothly. I solving my life's problems with computers, enough that I catch myself inventing" +
+						"make my life run smoothly. I enjoy solving my life's problems with computers, enough that I catch myself inventing" +
 						" new ones just for the opportunity to write something." 
 						);
 					display("<br><br>");
@@ -89,6 +83,11 @@ var directories = [
 				func : function r() {
                     display(resume);
                 }
+			}, 
+			{
+				name : "alternate site",
+				type : "link",
+				func : "/mobile"
 			}
 		]
 	}, 
@@ -163,6 +162,11 @@ $(document).ready(function() {
 	display(PROMPT(), "blue");
 	checkBuffer();
 	window.setTimeout(start, 1000);
+
+    if ( $("#mobileDetect").css('display') == 'none' ){
+        window.location.href = "http://www.shawnrast.com/mobile";
+        // must be on mobile
+    }
 });
 
 // displays a string of text one letter at a time. (to emulate typing)
