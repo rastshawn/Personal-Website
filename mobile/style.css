@@ -71,6 +71,17 @@ p{
     margin-bottom:auto;
 }
 
+.projects {
+	background-color: #e8e6ff;
+	margin-top:auto;
+    padding:20px;
+    margin-bottom:auto;
+    
+}
+.projects p {
+	color:black;
+}
+
 
 @media only screen and (min-width: 768px) {
     #mobileDetect {
