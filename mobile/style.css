@@ -105,5 +105,9 @@ p{
     .title-background {
 		height:400px;
     }
+    
+	section {
+		margin-top:91px;
+	}
 }
 
