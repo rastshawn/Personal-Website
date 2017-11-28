@@ -1,16 +1,113 @@
- body{
-	font-family: monospace;
-	//background-color:grey;
-	//color:white;
-	font-size: 1.5em;
+body {
+    font-family: 'acherus_militant_1_-_light.otf', Arial, sans-serif;
+    background-color: #07002e;
+}
+@font-face {
+    font-family: 'acherus_militant_1_-_light.otf';
+    src: url('acherus_militant_1_-_light.otf-webfont.woff2') format('woff2'),
+         url('acherus_militant_1_-_light.otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-p {
-	display:inline;
+p{
+    color:#D9CAB5;
 }
 
-@media only screen and (max-width: 768px) {
+.spacer {
+	height:30px;
+}
+
+.title-background {
+    background-image: url("images/background-bed.jpg");
+    background-size:100%;
+    background-position:center;
+    height:200px;
+    background-repeat:no-repeat;
+    background-color:#00004d;
+}
+
+.title {
+    opacity:.6;
+    background-color:#00004d;
+    height:100%;
+    width:100%;
+    display:block;
+}
+
+.developer {
+    opacity:1;
+    color:white;
+    text-align:center;
+    line-height:75px;
+    margin-bottom:10px;
+}
+
+.name {
+    opacity:1;
+    color:white;
+    margin:auto;
+    font-size:3em;
+    text-align:center;
+    line-height:125px;
+}
+
+
+.profPic {
+    border-radius:50%;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-bottom:10px;
+}
+
+.aboutMe {
+    background-color: #40395c;
+    margin-top:auto;
+    padding:20px;
+    margin-bottom:auto;
+}
+
+.projects {
+	background-color: #e8e6ff;
+	margin-top:auto;
+    padding:20px;
+    margin-bottom:auto;
+    
+}
+.projects p {
+	color:black;
+}
+
+.footer {
+	height: 400px;
+}
+
+@media only screen and (min-width: 768px) {
     #mobileDetect {
 		display: none;
     }
+    
+    .spacer {
+		height:91px;
+    }
+    
+    .name {
+		font-size:4em;
+		line-height:250px;
+    }
+    .developer {
+		line-height:150px;
+    }
+    
+    .title-background {
+		height:400px;
+    }
+    
+	.section {
+		padding-top:91px;
+	}
 }
+

@@ -139,7 +139,9 @@ function checkBuffer() {
 }
 
 function scrollToBottom() {
-	document.getElementById('bottom').scrollIntoView();
+	//document.getElementById('bottom').scrollIntoView();
+	var d = $('#output');
+	d.scrollTop(d.prop("scrollHeight"));
 }
 
 // displays an entire string of text at one time. 
@@ -161,11 +163,12 @@ $(document).ready(function() {
 	checkBuffer();
 	window.setTimeout(start, 1000);
 
+	/*
     if ( $("#mobileDetect").css('display') == 'none' ){
         window.location.href = "http://www.shawnrast.com/mobile";
         // must be on mobile
     }
-
+*/
 
 });
 

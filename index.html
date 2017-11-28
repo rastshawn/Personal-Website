@@ -1,32 +1,149 @@
 <html>
 <head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Shawn Rast</title>
 
-<script src="resume"></script>
-<script src="jquery.min.js"></script>
-<script src="bootstrap.min.js"></script>
-<link rel="stylesheet" href="bootstrap.min.css" />
-<link rel="stylesheet" href="style.css" />
-<script src="websiteLogic.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+
+<script src="lib/startbootstrap-scrolling-nav-3.3.7/js/scrolling-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<link rel="stylesheet" href="lib/startbootstrap-scrolling-nav-3.3.7/css/scrolling-nav.css" />
+<link rel="stylesheet" href="style.css">
 
 </head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Shawn Rast</a>
+            </div>
 
-<body>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/terminal">Terminal</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<header>
+<section id="page-top">
+<div class="containter">
+	<div class="spacer"></div>
+    <div class="title-background">
+        <div class="title">
+            <h1 class="name">Shawn Rast</h1>
+            <h2 class="developer">Developer.</h2>
+        </div>
+    </div>
+</div>
+</section>
+</header>
+
+<section id="about">
+<div class="aboutMe section">
 	<div class="container">
-		<div id="output"></div>
+	    <div class="row">
+	        <div class="col-sm-6">
+	            <img class="profPic" src="images/headshot.jpg"></img>
+	        </div>
+	
+	        <div class="col-sm-6">
+	            <div class="aboutMe-text">
+	             <p>I am a tinkerer obsessed with bringing crazy ideas to fruition. </p>
+				 <p>I spend a fair amount of my free time maintaining and building upon the network 
+				 of hacky solutions and automations I've created for myself. A series of GroupMe 
+				 bots and If This Then That triggers running on a 10-year old Dell Inspiron that 
+				 my parents insisted was 'obsolete' make my life run smoothly. 
+				 I enjoy solving my life's problems with computers, enough 
+				 that I catch myself inventing new ones just for the 
+				 opportunity to write something.</p>
+	
+				 <p>I have been a musician for almost my entire life. I began studying
+				  piano when I was four, picked up a trombone when I was in the
+				   fifth grade, and now am finishing up a Bachelor of Arts in Music 
+				   in addition to my degree in computer science. Programming to me is very much 
+				   like performing - it's a creative outlet. I love the rush I get when I find a 
+				   creative solution. Music and programming are also similar in 
+				   that for each, practicing is both crucial and fun. Reading theory books 
+				   alone doesn't make a good performer or programmer - a desire 
+				   to practice and build skills does. I love opportunities to 
+				   write new solutions, and find myself asking friends and 
+				   family for ideas for tools, websites, and chatbots that 
+				   would make our lives easier or more enjoyable. One of the 
+				   best things about being a developer is that every day brings 
+				   a new challenge and a new opportunity to build a 
+				   more elegant solution than my last. </p>
+	            </div>
+	        </div>
+	
+	    </div>
 	</div>
-	<div id="bottom"></div>
-	<div id="mobileDetect"></div>
+</div>
+</section>
+<section id="projects">
+<div class="projects section">
+	<div class="container">
+	    <div class="row">
+			<h3>Projects</h3>
+		</div>
+		<div class="row">
+	        <div class="col-sm-12">
+	            <div class="projects-text">
+	             <p>I keep most of my work on <a href="http://github.com/rastshawn">Github</a>. On there I have examples
+	             of things I write for school as well as in my free time, including all of the code for this website. </p>
+	             <p>
+					 <ul>
+						 <li><a href="https://github.com/rastshawn/SudokuSolver">Sudoku AI</a> (Java)</li>
+						 <li><a href="https://github.com/rastshawn/Personal-Website">the interactive version of this site</a> (JavaScript)</li>
+						 <li><a href="https://github.com/rastshawn/WordDoc-Parser">A quick program to reformat the local police crime data</a> (C++)</li>
+					</ul>
+	             </p>
+	            </div>
+	        </div>
+	
+	    </div>
+	</div>
+</div>
+</section>
+
+<div class = "footer"></div>
+
 </body>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110208616-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-110208616-1');
-</script>
-
 </html>

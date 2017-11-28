@@ -1,0 +1,22 @@
+ #output {
+ 	margin-top:40px;
+	font-family: monospace;
+	background-color:white;
+	//color:white;
+	font-size: 1em;
+	overflow: scroll;
+	height:75%;
+	padding:5px;
+	
+}
+
+p {
+	display:inline;
+	color:black;
+}
+
+@media only screen and (max-width: 768px) {
+    #mobileDetect {
+		display: none;
+    }
+}
