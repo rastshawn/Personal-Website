@@ -12,7 +12,8 @@ body {
 }
 
 p{
-    color:#D9CAB5;
+    /*color:#D9CAB5;*/
+    color: #e8e6ff;
 }
 
 .spacer {
@@ -79,6 +80,21 @@ p{
 }
 .projects p {
 	color:black;
+}
+
+.contact {
+    background-color: #40395c;
+    margin-top:auto;
+    padding:20px;
+    margin-bottom:auto;
+}
+
+.contact h3 {
+	color:#e8e6ff
+}
+
+.contact li {
+	color:#e8e6ff
 }
 
 .footer {
