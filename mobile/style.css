@@ -44,7 +44,6 @@ p{
     margin-bottom:10px;
 }
 
-
 .name {
     opacity:1;
     color:white;
@@ -82,6 +81,9 @@ p{
 	color:black;
 }
 
+.footer {
+	height: 400px;
+}
 
 @media only screen and (min-width: 768px) {
     #mobileDetect {
