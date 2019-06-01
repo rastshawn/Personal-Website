@@ -20,24 +20,48 @@ p{
 	height:30px;
 }
 
-.title-background {
+.title-background-img {
     background-image: url("images/background-bed.jpg");
     background-size:100%;
     background-position:center;
-    height:200px;
     background-repeat:no-repeat;
     background-color:#00004d;
+    overflow:auto;
 }
 
-.title {
+
+.title-background-gradient {
+    background-color:#00004d88;
+    width:100%;
+    text-align:center;
+    overflow:auto;
+    color:white;
+    padding:30px;
+    display:block;
+}
+
+.title-background-gradient img {
+    max-height:60%;
+    max-width:60%;
+    position:center;
+}
+
+.name {
+    font-size: 3em;
+}
+.developer {
+    font-size: 2em;
+}
+
+/* .title {
     opacity:.6;
     background-color:#00004d;
     height:100%;
     width:100%;
     display:block;
-}
+} */
 
-.developer {
+/* .developer {
     opacity:1;
     color:white;
     text-align:center;
@@ -52,16 +76,13 @@ p{
     font-size:3em;
     text-align:center;
     line-height:125px;
-}
+} */
 
 
 .profPic {
     border-radius:50%;
-    width:60%;
-    margin-left:auto;
-    margin-right:auto;
+    margin: auto;
     display:block;
-    margin-bottom:10px;
 }
 
 .aboutMe {
@@ -110,20 +131,20 @@ p{
 		height:91px;
     }
     
-    .name {
-		font-size:4em;
-		line-height:250px;
-    }
-    .developer {
-		line-height:150px;
-    }
-    
-    .title-background {
-		height:400px;
-    }
-    
 	.section {
 		padding-top:91px;
-	}
+    }
+
+    .name {
+        font-size: 4em;
+    }
+    .developer {
+        font-size: 3em;
+    }
+
+    .title-background-gradient {
+        display: flex;
+        align-items: center;
+    }
 }
 
