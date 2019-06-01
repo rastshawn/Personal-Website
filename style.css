@@ -22,7 +22,7 @@ p{
 
 .title-background-img {
     background-image: url("images/background-bed.jpg");
-    background-size:100%;
+    background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     background-color:#00004d;
@@ -31,6 +31,7 @@ p{
 
 
 .title-background-gradient {
+    min-height:250px;
     background-color:#00004d88;
     width:100%;
     text-align:center;
@@ -51,6 +52,17 @@ p{
 }
 .developer {
     font-size: 2em;
+}
+
+#buttons {
+    text-align:center;
+    padding-bottom:10px;
+}
+
+#buttons .btn {
+    color:#40395c;
+    background-color:#e8e6ff;
+    margin-top:10px;
 }
 
 /* .title {
